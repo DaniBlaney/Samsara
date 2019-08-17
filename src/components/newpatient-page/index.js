@@ -30,7 +30,8 @@ const NewPatient = () => {
       </Container>
       <div className="fixed-bottom">
         <FooterComponent />
-      </div>    </>
+      </div>
+    </>
   );
 }
 

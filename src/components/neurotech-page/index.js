@@ -26,7 +26,9 @@ const Neuro = () => {
           </Col>
         </Row>
       </Container>
-      <FooterComponent />
+      <div className="fixed-bottom">
+        <FooterComponent />
+      </div>
     </>
   );
 }
