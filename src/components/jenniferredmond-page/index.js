@@ -9,6 +9,7 @@ const JenniferRedmond = () => {
     <>
       <NavBarComponent />
       <Container fluid>
+        <div className="jenRed">
         <Row className="justify-content-md-center">
           <Col>
             <h4>Education</h4>
@@ -54,6 +55,7 @@ const JenniferRedmond = () => {
             </ul>
           </Col>
         </Row>
+        </div>
       </Container>
       <div className="fixed-bottom">
         <FooterComponent />
