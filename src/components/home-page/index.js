@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <>
       <NavBarComponent />
-
+      <div className="gradient">
       <Container fluid>
         <Row className="justify-content-md-center mainCont">
           <Col md={3}>
@@ -37,6 +37,7 @@ const HomePage = () => {
           </Col>
         </Row>
       </Container>
+      </div>
       <div className="fixed-bottom">
         <FooterComponent />
       </div>

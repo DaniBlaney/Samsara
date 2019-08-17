@@ -8,6 +8,7 @@ const JenniferRedmond = () => {
   return (
     <>
       <NavBarComponent />
+      <div className="gradient">
       <Container fluid>
         <div className="jenRed">
         <Row className="justify-content-md-center">
@@ -57,6 +58,7 @@ const JenniferRedmond = () => {
         </Row>
         </div>
       </Container>
+      </div>
       <div className="fixed-bottom">
         <FooterComponent />
       </div>
