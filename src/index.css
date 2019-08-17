@@ -100,3 +100,7 @@ p{
   background-color: blueviolet;
   color: white;
 }
+.infoCard{
+  margin-top: 75px;
+  opacity: .85;
+}
