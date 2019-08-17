@@ -48,17 +48,16 @@ const SidebarExample = () => (
         width: '100%',
         background: '#f0f0f0'
       }}>
-        <ul style={{ listStyleType: 'none', padding: 0 }}>
+        <ul >
           <li><Link to="/jenniferredmond">Jennifer E. Redmond, D.C.</Link></li>
-          <li><a href="https://www.google.com/maps/dir//7+E+High+St,+Somerville,+NJ+08876/@40.5699591,-74.613052,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c39549552d991f:0xd3fa01cc1f69dcf8!2m2!1d-74.610858!2d40.569955">Samsara Chiropractic Wellness Center</a></li>
-          <li><p>7 E High St, Somerville, NJ 08876</p></li>
-          <li><a href="malito:doctorredmond@gmail.com"> doctorredmond@gmail.com</a></li>
-          <p> 908-300-8800</p>
-          <p> 908-642-7634</p>
-          <li><Link to="/events">Newsletter</Link></li>
-          <li><Link to="/bubble">Events</Link></li>
-          <li><Link to="/shoelaces">Shoelaces</Link></li>
+          <li><Link to="/newsletter">Newsletter</Link></li>
+          <li><Link to="/events">Events</Link></li>
+          <li><a href="http://welcometowellness.blogspot.com/">Dr. Redmond's Blog</a></li>
           <li><Link to="/blah">blah</Link></li>
+          <li><a href="https://www.google.com/maps/dir//7+E+High+St,+Somerville,+NJ+08876/@40.5699591,-74.613052,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c39549552d991f:0xd3fa01cc1f69dcf8!2m2!1d-74.610858!2d40.569955">Samsara Chiropractic Wellness Center</a></li>
+          <p>7 E High St, Somerville, NJ 08876</p>
+          <li><a href="malito:doctorredmond@gmail.com"> doctorredmond@gmail.com</a></li>
+          <li><p> 908-300-8800 | 908-642-7634</p></li>
         </ul>
 
         {routes.map((route, index) => (

@@ -12,7 +12,7 @@ const HomePage = () => {
       <NavBarComponent />
 
       <Container fluid>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-md-center mainCont">
           <Col md={3}>
             <Card.Img className="imgStyle" src="./images/redmond.png" />
           </Col>
