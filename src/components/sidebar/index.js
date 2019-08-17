@@ -45,7 +45,7 @@ const SidebarExample = () => (
       <div style={{
         padding: '10px',
         width: '100%',
-        background: '#f0f0f0'
+        height: '100%'
       }}>
         <ul className="demopara">
           <li><Link to="/jenniferredmond">Jennifer E. Redmond, D.C.</Link></li>
@@ -80,5 +80,3 @@ const SidebarExample = () => (
 )
 
 export default SidebarExample
-
-

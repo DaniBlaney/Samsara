@@ -30,6 +30,7 @@ const HomePage = () => {
             <SidebarExample />
           </Col>
         </Row>
+        <hr/>
         <Row>
           <Col>
             <p>{"\u2728"} Dr. Redmond is working hard to spread the health and you can help! If your business or group is looking for a speaker, Dr. Redmond is
