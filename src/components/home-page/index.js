@@ -36,8 +36,6 @@ const HomePage = () => {
             available for free health workshops. Please contact the doc for details.</p>
           </Col>
         </Row>
-        <hr/>
-        <hr/>
       </Container>
       <div className="fixed-bottom">
         <FooterComponent />
