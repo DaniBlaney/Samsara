@@ -19,6 +19,7 @@ const NewPatient = () => {
             <a href="http://www.doctorredmond.com/images/common/patient_signup.pdf" target="_blank">Download PDF Sign-up form</a>
           </Col>
         </Row>
+        <hr/>
         <Row>
           <Col>
           <p>Click below to fill out our wellness check questionnaire</p>
@@ -27,8 +28,9 @@ const NewPatient = () => {
         </Row>
         </div>
       </Container>
-      <FooterComponent />
-    </>
+      <div className="fixed-bottom">
+        <FooterComponent />
+      </div>    </>
   );
 }
 
