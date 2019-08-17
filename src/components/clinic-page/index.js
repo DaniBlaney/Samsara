@@ -11,7 +11,7 @@ const ClinicInfo = () => {
       <div className="gradient">
         <Container fluid className="oilImg">
           <Row className="justify-content-md-center">
-            <Col md={4}>
+            <Col md={5}>
               <div className="imgHours" style={{ textAlign: "center" }}>
                 <Card.Img src="./images/businesshrs.png" />
                 <p className="other">Other times may be scheduled for special circumstances with Doctor's permission.

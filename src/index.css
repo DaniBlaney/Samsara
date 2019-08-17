@@ -86,7 +86,8 @@ p{
 }
 .imgHours{
   margin: 25px !important;
-  width: 455px;
+  margin-left: 50px !important;
+  width: 450px;
   opacity: .75;
 }
 .oilImg{
