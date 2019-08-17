@@ -1,12 +1,15 @@
 import React from 'react';
 import { Container, Col, Row, Navbar, Nav, Link, Item, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import 'font-awesome/css/font-awesome.min.css'
+
 
 const FooterComponent = () => {
   return (<>
     <footer className="footer">
       <Navbar sticky="bottom">
         < Container fluid className="bg-light">
+          <Nav.Item>Samsara Chiropractic Wellness Center | 908-300-8800</Nav.Item>
           <Nav.Item>
             <a>&copy; Copyright &copy; 2019 All Rights Reserved </a>
           </Nav.Item>

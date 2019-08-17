@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Row, Col, Card, Body, Title, Text, Nav, Navbar, Dropdown, ButtonGroup, NavItem, Link, Brand, Button, FormControl, Form, Image, Container } from 'react-bootstrap';
-import NavBarComponent from "../../components/Navbar/navbar";
-import FooterComponent from '../../components/Footer/footer';
+import NavBarComponent from "../navbar";
+import FooterComponent from '../footer';
 
 
 
-const Home = () => {
+const About = () => {
   return (
     <>
       <NavBarComponent />
@@ -24,4 +24,4 @@ const Home = () => {
 }
 
 
-export default Home;
+export default About;

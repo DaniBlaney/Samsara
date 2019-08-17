@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from './views/Home/home'
-import About from './views/About/about'
-import ClinicInfo from './views/ClinicInfo/clinicinfo'
+import Home from './components/Home/home'
+import About from './components/About/about'
+import ClinicInfo from './components/ClinicInfo/clinicinfo'
 
 import './App.css';
 
@@ -12,9 +12,9 @@ function App () {
     <Router>
     <div>
       <Switch>
-        <Route exact path="/" view={Home} />
-        <Route exact path="/about" view={About} />
-        <Route exact path="/clinicinfo" view={ClinicInfo} />
+        <Route exact path="/" components={Home} />
+        <Route exact path="/about" components={About} />
+        <Route exact path="/clinicinfo" components={ClinicInfo} />
       </Switch>
     </div>
   </Router>
