@@ -4,8 +4,7 @@ import { Row, Col, Card, Body, Title, Text, Nav, Navbar, Dropdown, ButtonGroup, 
 import NavBarComponent from "../navbar";
 import FooterComponent from '../footer';
 
-
-const Home = () => {
+const About = () => {
   return (
     <>
       <NavBarComponent />
@@ -23,4 +22,4 @@ const Home = () => {
 }
 
 
-export default Home;
+export default About;
