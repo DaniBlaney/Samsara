@@ -46,3 +46,7 @@ code {
 .eventList{
   padding-right: 25px;
 }
+.imgHours{
+  margin: 25px !important;
+  width: 800px;
+}
