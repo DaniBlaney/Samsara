@@ -18,7 +18,7 @@ const FooterComponent = () => {
               <span className="fa fa-instagram"></span>
             </a> */}
             <Nav.Link>
-            <a href="#" className="btn btn-social-icon btn-facebook">
+            <a href="https://www.facebook.com/SamsaraChiropracticWellnessCenter" className="btn btn-social-icon btn-facebook">
               <span className="fa fa-facebook"></span>
             </a>
             </Nav.Link>
