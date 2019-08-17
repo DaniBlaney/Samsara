@@ -86,5 +86,16 @@ p{
 }
 .imgHours{
   margin: 25px !important;
-  width: 800px;
+  width: 455px;
+  opacity: .75;
+}
+.oilImg{
+  background-image: url('/images/lavoil.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+.other{
+  background-color: blueviolet;
+  color: white;
 }

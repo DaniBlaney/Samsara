@@ -9,25 +9,25 @@ const ClinicInfo = () => {
     <>
       <NavBarComponent />
       <div className="gradient">
-        <Container fluid>
+        <Container fluid className="oilImg">
           <Row className="justify-content-md-center">
-            <Col></Col>
-            <Col md={9}>
+            <Col md={4}>
               <div className="imgHours" style={{ textAlign: "center" }}>
-                <Card.Img src="./images/hours.png" />
-                <p>Other times may be scheduled for special circumstances with Doctor's permission.
+                <Card.Img src="./images/businesshrs.png" />
+                <p className="other">Other times may be scheduled for special circumstances with Doctor's permission.
                   New patients are seen on Mondays, Wednesdays, and Fridays at 11AM and 4PM but
-            other arrangements can be made if necessary.</p>
+                  other arrangements can be made if necessary.</p>
               </div>
             </Col>
+            <Col md={5}></Col>
             <Col></Col>
           </Row>
         </Container>
-        </div>
-        <FooterComponent />
+      </div>
+      <FooterComponent />
     </>
-      );
-    }
+  );
+}
 
 
-    export default ClinicInfo;
+export default ClinicInfo;
