@@ -22,9 +22,20 @@ const HomePage = () => {
               allowing us to cater to your specific needs and attain the best results possible.</p>
             <p>Samsara is the Buddhist term for life, death, and rebirth. Like the caterpillar that must let go of its previous way of life before emerging as
               the butterfly, we, too, can transform into a more beautiful version of ourselves if we let go...</p>
+            <p>Don't forget that Wednesday is Family Scan day! Bring your children or spouse in for a complimentary scan and make sure they are free of
+              nervous system interference!</p>
+            <p>If you haven't tried NET yet, what are you waiting for? Call and sign up to be present for our next demo!</p>
           </Col>
           <Col>
             <SidebarExample />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p>{"\u2728"} Dr. Redmond is working hard to spread the health and you can help! If your business or group is looking for a speaker, Dr. Redmond is
+
+            available for free health workshops. Please contact the doc for details.</p>
+
           </Col>
         </Row>
       </Container>
