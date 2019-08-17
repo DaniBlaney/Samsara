@@ -19,9 +19,9 @@ const routes = [
     main: () => <h2>Jennifer E. Redmond, D.C.</h2>
   },
   {
-    path: '/samsarachiro',
-    sidebar: () => <div>samsarachiropractic!</div>,
-    main: () => <h2>Samsara Chiropractic Wellness Center</h2>
+    path: '/newsletter',
+    sidebar: () => <div>newsletter!</div>,
+    main: () => <h2>Newsletter</h2>
   },
   {
     path: '/events',
@@ -29,14 +29,14 @@ const routes = [
     main: () => <h2>Events</h2>
   },
   {
-    path: '/shoelaces',
-    sidebar: () => <div>newsletter!</div>,
-    main: () => <h2>Newsletter</h2>
+    path: '/newpatients',
+    sidebar: () => <div>newpatients!</div>,
+    main: () => <h2>New Patients</h2>
   },
   {
-    path: '/shoelaces',
-    sidebar: () => <div>shoelaces!</div>,
-    main: () => <h2>Shoelaces</h2>
+    path: '/neuro',
+    sidebar: () => <div>Neuro Emotional Technique!</div>,
+    main: () => <h2>Neuro Emotional Technique</h2>
   }
 ]
 
@@ -48,16 +48,17 @@ const SidebarExample = () => (
         width: '100%',
         background: '#f0f0f0'
       }}>
-        <ul >
+        <ul className="demopara">
           <li><Link to="/jenniferredmond">Jennifer E. Redmond, D.C.</Link></li>
           <li><Link to="/newsletter">Newsletter</Link></li>
           <li><Link to="/events">Events</Link></li>
           <li><a href="http://welcometowellness.blogspot.com/">Dr. Redmond's Blog</a></li>
-          <li><Link to="/blah">blah</Link></li>
+          <li><Link to="/newpatient">New Patients</Link></li>
+          <li><Link to="/neuro">The Neuro Emotional Technique</Link></li>
+          <li><a href="malito:doctorredmond@gmail.com"> doctorredmond@gmail.com</a></li>
+          <li ><a href="tel:908-300-8800"> 908-300-8800</a> | <a href="tel: 908-642-7634"> 908-642-7634</a></li>
           <li><a href="https://www.google.com/maps/dir//7+E+High+St,+Somerville,+NJ+08876/@40.5699591,-74.613052,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c39549552d991f:0xd3fa01cc1f69dcf8!2m2!1d-74.610858!2d40.569955">Samsara Chiropractic Wellness Center</a></li>
           <p>7 E High St, Somerville, NJ 08876</p>
-          <li><a href="malito:doctorredmond@gmail.com"> doctorredmond@gmail.com</a></li>
-          <li><p> 908-300-8800 | 908-642-7634</p></li>
         </ul>
 
         {routes.map((route, index) => (

@@ -24,11 +24,13 @@ const HomePage = () => {
               the butterfly, we, too, can transform into a more beautiful version of ourselves if we let go...</p>
           </Col>
           <Col>
-            <SidebarExample/>
+            <SidebarExample />
           </Col>
         </Row>
       </Container>
-      <FooterComponent />
+      <div className="fixed-bottom">
+        <FooterComponent />
+      </div>
     </>
   );
 }

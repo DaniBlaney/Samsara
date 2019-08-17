@@ -13,7 +13,7 @@ const About = () => {
         <Row className="justify-content-md-center">
           <div className="wordWrapper">
             <Col>
-            <h1 className="aboutHeader"style={{textAlign:"left"}}>About the Doctor</h1>
+            <h1 className="aboutHeader"style={{textAlign:"left"}}>About the Doctor</h1><hr/>
               <Card.Img className="wordWrap" src="./images/jen.png" />
               <p>
                 Dr. Jennifer Redmond's interest in the world of Wellness began with a
@@ -50,6 +50,37 @@ const About = () => {
               </p>
             </Col>
           </div>
+        </Row>
+        <Row>
+          <div className="wordWrapper">
+          <Col>
+          <h1>About Chiropractic</h1><hr/>
+            <p>
+              Chiropractic is the Science, Art and Philosophy that concerns itself with the restoration of good
+              health by restoring and maintaining a properly functioning nervous system, without the use of drugs
+              or surgery. Chiropractic is based on the scientific fact that your body is a self-regulating, self-healing
+              organism. These important functions are controlled by the brain, spinal cord, and all the nerves of the body.
+              The skull protects the delicate tissues of the brain. The moving bones of the spine protect the vulnerable communication
+              pathways of the spinal cord and nerve roots. If the nervous system is impaired, it can cause malfunction of the tissues
+              and organs throughout the body. Doctors of Chiropractic call this the Vertebral Subluxation Complex. The Chiropractic
+              adjustment has been proven to increase motion, increase circulation, reduce swelling and pain, and remove nervous irritation.
+              Once this nervous irritation is removed, your body is able to do what it is designed to do - heal itself.
+            </p>
+            <p>
+            Chiropractors help in restoring nervous system function. Many chiropractors also focus on the biomechanics of the body such
+            as joint motion. Helping to restore proper spinal biomechanics and improved nervous system function begins with a case history.
+            Your case history is vital, as it reveals the background about your health such as surgeries, accidents, the onset of your condition,
+            and other details, which brought you into the office. After reviewing your history and discussing your specific problem, a thorough
+            orthopedic, neurological, and chiropractic examination is performed. X-rays may be taken which will help uncover structural and
+            functional problems. Then, once the examination is complete, your chiropractor will explain the findings and outline a treatment plan.
+            Progress is then monitored with periodic examination and follow-up reports.
+            </p>
+          </Col>
+          </div>
+        </Row>
+        <Row>
+          <Col>
+          </Col>
         </Row>
       </Container>
       <FooterComponent />

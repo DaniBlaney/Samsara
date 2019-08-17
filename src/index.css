@@ -26,8 +26,13 @@ code {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-.mainCont{
+.mainCont,
+.neuroT,
+.newPatient {
   margin-top: 20px;
+}
+.demopara {
+  line-height: 2 ;
 }
 .upcomingEvents{
   margin: 15px;
