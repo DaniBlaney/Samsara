@@ -114,6 +114,26 @@ const Newsletter = () => {
           </Col>
           </div>
         </Row>
+        <Row>
+        <Col>
+          <h4>Other Articles</h4><hr/>
+          <ul>
+          <li><a href="http://www.chirojournal.com/newsletter.php?nl=311554&ar=3283">Backpack Safety is Back-to-School Issue</a></li>
+          <li><a href="http://www.chirojournal.com/newsletter.php?nl=311554&ar=3307">Chiropractic Treatment for Asthma</a></li>
+          <li><a href="http://www.chirojournal.com/newsletter.php?nl=311554&ar=3654">Superfoods and Their Superpowers</a></li>
+          <li><a href="http://www.chirojournal.com/newsletter.php?nl=311554&ar=3655">How a Chiropractor Helps to Reduce Back Pain</a></li>
+          </ul>
+          <p>Make sure to "like" us on Facebook. Also, be sure to check out Dr. Redmond's blog at www.WelcomeToWellness.blogspot.com </p>
+
+          <p>Our free monthly e-newsletter is designed to be used as a resource for our patients in discovering and empowering
+            them to make the best choices for their health and well-being. </p>
+          </Col>
+          <Col>
+          <h4>About Our Practice</h4>
+          <p>We offer gentle, safe, natural, chiropractic care centered on the individual needs of each patient. Providing the
+            best alternative healthcare and optimizing health are our goals.</p>
+          </Col>
+        </Row>
       </Container>
       <FooterComponent />
     </>

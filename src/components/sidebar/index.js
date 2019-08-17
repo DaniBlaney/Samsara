@@ -50,7 +50,7 @@ const SidebarExample = () => (
       }}>
         <ul className="demopara">
           <li><Link to="/jenniferredmond">Jennifer E. Redmond, D.C.</Link></li>
-          <li><Link to="/newsletter">Newsletter</Link></li>
+          <li><a href="http://www.chirojournal.com/newsletter.php?nl=311554&ar=3283">Newsletter</a></li>
           <li><Link to="/events">Events</Link></li>
           <li><a href="http://welcometowellness.blogspot.com/" target="_blank">Dr. Redmond's Blog</a></li>
           <li><Link to="/newpatient">New Patients</Link></li>
