@@ -3,8 +3,8 @@ import { Nav, NavDropdown, NavItem, Navbar, NavbarBrand, NavLink, NavbarToggle, 
 
 const NavBarComponent = () => {
   return (<>
-    <Container fluid>
-      <Navbar className="navbar" id="custom-nav" sticky="top" bg="light" variant="light" expand="lg">
+    <Container fluid style={{padding: 0}}>
+      <Navbar className="navbar" id="custom-nav" style={{}} sticky="top" bg="light" variant="light" expand="lg">
         <Navbar.Brand href="/">
           <img
             alt=""

@@ -37,8 +37,8 @@ p{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf5fa', endColorstr='#dec1f5', GradientType=0 );
   height: 100%;
 }
-.navbar, #custom-nav{
-  width: 100%;
+.navbar{
+  width: 100% !important;
 }
 .imgStyle{
   width: 250px !important;
