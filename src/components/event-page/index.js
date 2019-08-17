@@ -13,8 +13,8 @@ const Events = () => {
         <Row className="justify-content-md-center">
           <Col></Col>
           <Col md={5} style={{textAlign:"center"}}>
-            <div className="eventList">
-            <ul>
+            <div className="eventDiv">
+            <ul className="eventList">
               <h4 className="upcomingEvents">Upcoming Events:</h4>
 
               <li style={{ fontWeight: 'bold', listStyleType: "none" }}>Wellness 101, Sept 9th, 7pm</li>

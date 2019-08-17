@@ -31,5 +31,13 @@ code {
 }
 .upcomingEvents{
   margin: 15px;
+  padding: 10px;
   font-size: 35px;
+}
+.eventDiv{
+  background-color: rgba(213, 153, 248, 0.185);
+  width: 500px;
+}
+.eventList{
+  padding-right: 25px;
 }
