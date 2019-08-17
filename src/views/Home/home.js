@@ -6,7 +6,7 @@ import FooterComponent from '../footer';
 
 
 
-const HomePage = () => {
+const Home = () => {
   return (
     <>
       <NavBarComponent />
@@ -14,7 +14,7 @@ const HomePage = () => {
       <Container fluid>
         <Row className="justify-content-md-center">
           <Col>
-            <Card.Img className="cardStyle imgStyle" src="./images/fade.png" />
+            <Card.Img className="cardStyle imgStyle" src="./images/redmond.png" />
           </Col>
         </Row>
       </Container>
@@ -24,4 +24,4 @@ const HomePage = () => {
 }
 
 
-export default HomePage;
+export default Home;
