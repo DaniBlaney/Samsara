@@ -17,7 +17,7 @@ code {
 }
 .wordWrapper{
   column-count: 2;
-  column-gap: 50px;
+  column-gap: 25px;
   padding: 50px;
 }
 .wordWrap {

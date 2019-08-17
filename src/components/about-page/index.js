@@ -10,10 +10,10 @@ const About = () => {
       <NavBarComponent />
 
       <Container fluid>
-      <h1 className="aboutHeader">About the Doctor</h1>
         <Row className="justify-content-md-center">
           <div className="wordWrapper">
             <Col>
+            <h1 className="aboutHeader"style={{textAlign:"left"}}>About the Doctor</h1>
               <Card.Img className="wordWrap" src="./images/jen.png" />
               <p>
                 Dr. Jennifer Redmond's interest in the world of Wellness began with a
@@ -26,8 +26,7 @@ const About = () => {
                 Bachelor of Arts from Excelsior College in Albany, New York and
                 completed her doctorate at New York Chiropractic College in Seneca Falls, New
                 York in 2003, where she was active in Student Government and the Chiroteach
-                program.
-              </p>
+                program.</p>
               <p>
                 During her internship she pursued and completed a post-doctorate
                 certification in Active Release Techniques and began her studies in Applied
@@ -35,13 +34,14 @@ const About = () => {
                 was granted the opportunity to have the unique experience of holding two separate
                 externships simultaneously, one in Long Island with a focus on Pediatrics, and
                 one focusing on Wellness care and Postural Retraining on the Upper East Side of
-                Manhattan. After completing her externships and a brief stint working for a Chiropractic
+                Manhattan. </p>
+                <p>
+                After completing her externships and a brief stint working for a Chiropractic
                 office in Northern New Jersey, Dr. Redmond opened her private practice in Bridgewater,
                 New Jersey. In a relentless pursuit of knowledge and new ways to help her patients, Dr. Redmond
                 learned about a revolutionary technique referred to as Neuroemotional Technique (NET).
                 This technique allowed her patients to experience breakthroughs in their care and lives like they
-                had never seen before.
-              </p>
+                had never seen before.</p>
               <p>
                 In her spare time, Dr. Redmond continues to attend seminars to improve herself and her skills for
                 the benefit of her patients. She also enjoys reading, healthy cooking, finding fun new ways to
