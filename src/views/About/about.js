@@ -6,7 +6,7 @@ import FooterComponent from '../../components/Footer/footer';
 
 
 
-const Home = () => {
+const About = () => {
   return (
     <>
       <NavBarComponent />
@@ -24,4 +24,4 @@ const Home = () => {
 }
 
 
-export default Home;
+export default About;

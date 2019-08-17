@@ -6,7 +6,7 @@ import FooterComponent from '../../components/Footer/footer';
 
 
 
-const Home = () => {
+const ClinicInfo = () => {
   return (
     <>
       <NavBarComponent />
@@ -14,7 +14,7 @@ const Home = () => {
       <Container fluid>
         <Row className="justify-content-md-center">
           <Col>
-            <Card.Img className="cardStyle imgStyle" src="./images/redmond.png" />
+
           </Col>
         </Row>
       </Container>
@@ -24,4 +24,4 @@ const Home = () => {
 }
 
 
-export default Home;
+export default ClinicInfo;
