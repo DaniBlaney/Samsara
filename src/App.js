@@ -12,9 +12,9 @@ function App () {
     <Router>
     <div>
       <Switch>
-        <Route exact path="/" components={HomePage} />
-        <Route exact path="/about" components={About} />
-        <Route exact path="/clinicinfo" components={ClinicInfo} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/clinicinfo" component={ClinicInfo} />
       </Switch>
     </div>
   </Router>
