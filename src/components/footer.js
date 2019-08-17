@@ -9,19 +9,23 @@ const FooterComponent = () => {
     < Container fluid className="bg-light" style={{ padding: 0 }}>
       <footer className="footer">
         <Navbar className="navbar" sticky="bottom">
-          <Nav.Item>Samsara Chiropractic Wellness Center | 908-300-8800</Nav.Item>
-          <Nav.Item>
-            <a>Copyright &copy; 2019 All Rights Reserved </a>
-          </Nav.Item>
-          {/* <a className="insta" href="https://www.instagram.com/beautyy_by_shay/?hl=en" target="_blank" className="btn btn-social-icon btn-instagram">
-               <FontAwesomeIcon icon="instagram" />
-              <span className="fa fa-instagram"></span>
-            </a> */}
+          <Nav className="mr-auto">
+            <Nav.Item>Samsara Chiropractic Wellness Center - {" "}</Nav.Item>
+            <Nav.Item>
+              <a href="tel:908-300-8800">&nbsp;908-300-8800</a> | <a href="tel: 908-642-7634"> 908-642-7634</a>
+            </Nav.Item>
+          </Nav>
+          <Nav>
+            <Nav.Item>
+              <a>Copyright &copy; 2019 All Rights Reserved </a>
+            </Nav.Item>
+          </Nav>
           <Nav.Item>
             <a href="https://www.facebook.com/SamsaraChiropracticWellnessCenter" target="_blank" className="btn btn-social-icon btn-facebook">
               <span className="fa fa-facebook"></span>
             </a>
           </Nav.Item>
+
         </Navbar>
       </footer>
     </ Container>
