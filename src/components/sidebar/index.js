@@ -41,7 +41,6 @@ const routes = [
 ]
 
 const SidebarExample = () => (
-  <Router>
     <div style={{ display: 'flex' }}>
       <div style={{
         padding: '10px',
@@ -78,9 +77,8 @@ const SidebarExample = () => (
         ))}
       </div>
     </div>
-  </Router>
 )
 
 export default SidebarExample
 
-render(<SidebarExample />, document.getElementById('root'));
+
