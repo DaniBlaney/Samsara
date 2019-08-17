@@ -11,7 +11,7 @@ const FooterComponent = () => {
         < Container fluid className="bg-light">
           <Nav.Item>Samsara Chiropractic Wellness Center | 908-300-8800</Nav.Item>
           <Nav.Item>
-            <a>&copy; Copyright &copy; 2019 All Rights Reserved </a>
+            <a>Copyright &copy; 2019 All Rights Reserved </a>
           </Nav.Item>
             {/* <a className="insta" href="https://www.instagram.com/beautyy_by_shay/?hl=en" target="_blank" className="btn btn-social-icon btn-instagram">
                <FontAwesomeIcon icon="instagram" />

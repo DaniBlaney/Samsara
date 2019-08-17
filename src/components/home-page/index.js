@@ -12,8 +12,10 @@ const HomePage = () => {
 
       <Container fluid>
         <Row className="justify-content-md-center">
-          <Col>
-            <Card.Img className="cardStyle imgStyle" src="./images/redmond.png" />
+          <Col md={4}>
+            <Card.Img className="imgStyle" src="./images/redmond.png" />
+            </Col>
+            <Col md={8}>
           </Col>
         </Row>
       </Container>

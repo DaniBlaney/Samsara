@@ -13,7 +13,7 @@ const NavBarComponent = () => {
             height="30"
             className="d-inline-block align-top"
           />
-          {' Samsara Chiropractic'}
+          {' Samsara Chiropractic Wellness Center'}
         </Navbar.Brand>
         <Nav className="justify-content-right">
           <Nav.Link href="/about">About Us</Nav.Link>
