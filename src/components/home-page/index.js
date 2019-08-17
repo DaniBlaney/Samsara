@@ -26,7 +26,7 @@ const HomePage = () => {
               nervous system interference!</p>
             <p>If you haven't tried NET yet, what are you waiting for? Call and sign up to be present for our next demo!</p>
           </Col>
-          <Col>
+          <Col md={4}>
             <SidebarExample />
           </Col>
         </Row>
