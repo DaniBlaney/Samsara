@@ -17,11 +17,11 @@ const FooterComponent = () => {
                <FontAwesomeIcon icon="instagram" />
               <span className="fa fa-instagram"></span>
             </a> */}
-            <Nav.Link>
-            <a href="https://www.facebook.com/SamsaraChiropracticWellnessCenter" className="btn btn-social-icon btn-facebook">
+            <Nav.Item>
+            <a href="https://www.facebook.com/SamsaraChiropracticWellnessCenter" target="_blank" className="btn btn-social-icon btn-facebook">
               <span className="fa fa-facebook"></span>
             </a>
-            </Nav.Link>
+            </Nav.Item>
         </ Container>
       </Navbar>
     </footer>
