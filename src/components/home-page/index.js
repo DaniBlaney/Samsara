@@ -33,11 +33,11 @@ const HomePage = () => {
         <Row>
           <Col>
             <p>{"\u2728"} Dr. Redmond is working hard to spread the health and you can help! If your business or group is looking for a speaker, Dr. Redmond is
-
             available for free health workshops. Please contact the doc for details.</p>
-
           </Col>
         </Row>
+        <hr/>
+        <hr/>
       </Container>
       <div className="fixed-bottom">
         <FooterComponent />
