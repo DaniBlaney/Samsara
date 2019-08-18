@@ -129,6 +129,13 @@ li{
   text-align: center;
   padding-left: 0;
 }
+.jumboTron{
+  margin-top:35px;
+  background-image: url('/images/backimg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
 
 div.slide-up {
   height:400px;
