@@ -135,7 +135,7 @@ div.slide-up {
   overflow:hidden;
 }
 div.slide-up div.inner {
-  animation: slide-up 10s;
+  animation: slide-up 3s;
   margin-top:0%;
 }
 
