@@ -15,7 +15,7 @@ const JenniferRedmond = () => {
               <Col md={3}>
                 <Card.Img className="imgStyle" src="./images/redmond.png" />
               </Col>
-              <Col>
+              <Col md={3}>
                 <h4>Education</h4>
                 <p>Graduated from New York Chiropractic College in 2003. Other degrees:
                   Excelsior College; Raritan Valley Community College. Memberships:
@@ -24,7 +24,7 @@ const JenniferRedmond = () => {
                   (CLA) Honors: Phi Theta Kappa Member, Certificate of Excellence for Pre-Chiropractic
                   Degree, RVCC Distinguished Alumni 2008</p>
               </Col>
-              <Col>
+              <Col md={2}>
                 <h4>Techniques</h4>
                 <ul>
                   <li>Diversified</li>
@@ -37,7 +37,7 @@ const JenniferRedmond = () => {
                   <li>Life Coaching</li>
                 </ul>
               </Col>
-              <Col>
+              <Col md={2}>
                 <h4>Specialties</h4>
                 <ul>
                   <li>Family Practice</li>
@@ -49,7 +49,7 @@ const JenniferRedmond = () => {
                   <li>Life and Health Coaching</li>
                 </ul>
               </Col>
-              <Col>
+              <Col md={2}>
                 <h4>Therapies</h4>
                 <ul>
                   <li>Nurtritional</li>
