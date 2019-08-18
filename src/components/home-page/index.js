@@ -4,12 +4,14 @@ import { Row, Col, Card, Body, Title, Text, Nav, Navbar, Dropdown, ButtonGroup, 
 import NavBarComponent from "../navbar";
 import FooterComponent from '../footer';
 import SidebarExample from '../sidebar';
+import Component1 from '../component1';
 
 
 const HomePage = () => {
   return (
     <>
       <NavBarComponent />
+      <Component1/>
       <div className="gradient">
       <Container fluid>
         <Row className="justify-content-md-center mainCont">
