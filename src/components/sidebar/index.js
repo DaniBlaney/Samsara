@@ -54,12 +54,12 @@ const SidebarExample = () => (
           <li><a href="http://welcometowellness.blogspot.com/" target="_blank">Dr. Redmond's Blog</a></li>
           <li><Link to="/newpatient">New Patients</Link></li>
           <li><Link to="/neuro">The Neuro Emotional Technique</Link></li>
+          <li><a href="https://icpa4kids.com/public-education/site-under-construction/" target="_blank">ICPA for Kids</a></li>
           <li><a href="malito:doctorredmond@gmail.com"> doctorredmond@gmail.com</a></li>
           <li ><a href="tel:908-300-8800"> 908-300-8800</a> | <a href="tel: 908-642-7634"> 908-642-7634</a></li>
           <li><a href="https://www.google.com/maps/dir//7+E+High+St,+Somerville,+NJ+08876/@40.5699591,-74.613052,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c39549552d991f:0xd3fa01cc1f69dcf8!2m2!1d-74.610858!2d40.569955" target="_blank">Samsara Chiropractic Wellness Center</a></li>
           <p>7 E High St, Somerville, NJ 08876</p>
         </ul>
-
         {routes.map((route, index) => (
           // You can render a <Route> in as many places
           // as you want in your app. It will render along
