@@ -126,7 +126,10 @@ li{
 .specList,
 .therList{
   font-size: 13px;
+  text-align: center;
+  padding-left: 0;
 }
+
 div.slide-up {
   height:400px;
   overflow:hidden;
