@@ -20,7 +20,11 @@ const HomePage = () => {
         <Container fluid>
           <Row className="justify-content-md-center mainCont">
             <Col md={3}>
-              <Card.Img className="imgStyle" src="./images/redmond.png" />
+              <div class="slide-up">
+                <div class="inner">
+                <Card.Img className="imgStyle" src="./images/redmond.png" />
+                </div>
+              </div>
             </Col>
             <Col md={5}>
               <h3>Jennifer E. Redmond, D.C.</h3>

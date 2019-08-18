@@ -73,7 +73,7 @@ li{
   margin-top: 20px;
 }
 .demopara {
-  line-height: 2 ;
+  line-height: 1.5 ;
 }
 .upcomingEvents{
   margin: 15px;
@@ -121,4 +121,27 @@ li{
   margin-left: 35px;
   margin-right: 35px;
   font-size: 15px;
+}
+.techList,
+.specList,
+.therList{
+  font-size: 13px;
+}
+div.slide-up {
+  height:400px;
+  overflow:hidden;
+}
+div.slide-up div.inner {
+  animation: slide-up 10s;
+  margin-top:0%;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
 }
