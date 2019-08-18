@@ -8,6 +8,7 @@ import JenniferRedmond from './components/jenniferredmond-page'
 import Events from './components/event-page';
 import Neuro from './components/neurotech-page';
 import NewPatient from './components/newpatient-page';
+import Doctorspick from './components/doctorspicks-page/doctorspick';
 
 import './App.css';
 
@@ -23,6 +24,7 @@ function App () {
         <Route exact path="/jenniferredmond" component={JenniferRedmond} />
         <Route exact path="/newpatient" component={NewPatient} />
         <Route exact path="/neuro" component={Neuro} />
+        <Route exact path="/doctorspick" component={Doctorspick} />
       </Switch>
     </div>
   </Router>

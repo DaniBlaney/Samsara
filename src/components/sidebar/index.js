@@ -54,6 +54,7 @@ const SidebarExample = () => (
           <li><a href="http://welcometowellness.blogspot.com/" target="_blank">Dr. Redmond's Blog</a></li>
           <li><Link to="/newpatient">New Patients</Link></li>
           <li><Link to="/neuro">The Neuro Emotional Technique</Link></li>
+          <li><Link to="/doctorspick">The Doctor's Pick</Link></li>
           <li><a href="https://icpa4kids.com/public-education/site-under-construction/" target="_blank">ICPA for Kids</a></li>
           <li><a href="malito:doctorredmond@gmail.com"> doctorredmond@gmail.com</a></li>
           <li ><a href="tel:908-300-8800"> 908-300-8800</a> | <a href="tel: 908-642-7634"> 908-642-7634</a></li>
