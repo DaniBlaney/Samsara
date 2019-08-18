@@ -130,11 +130,17 @@ li{
   padding-left: 0;
 }
 .jumboTron{
-  margin-top:35px;
+  margin-top:15px;
   background-image: url('/images/backimg.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 450px;
+}
+.jumbo{
+  margin-top:10px;
+  background-image: url('/images/backimg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div.slide-up {
