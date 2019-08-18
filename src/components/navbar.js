@@ -18,6 +18,7 @@ const NavBarComponent = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="justify-content-right">
+          <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/about">About Us</Nav.Link>
           <Nav.Link href="/clinicinfo">Clinic Info</Nav.Link>
         </Nav>
