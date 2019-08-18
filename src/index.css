@@ -26,6 +26,9 @@ code {
 p{
   font-size: 14px;
 }
+li{
+  margin: 0 0 8px 0;
+}
 .gradient{
   background: rgba(250,245,250,1);
   background: -moz-linear-gradient(top, rgba(250,245,250,1) 0%, rgba(222,193,245,1) 100%);
@@ -84,6 +87,9 @@ p{
 .eventList{
   padding-right: 25px;
 }
+.docpick{
+  display: inline-block;
+}
 .imgHours{
   margin-top: 10px !important;
   margin-left: 50px !important;
@@ -103,4 +109,16 @@ p{
 .infoCard{
   margin-top: 75px;
   opacity: .85;
+}
+.orderedList{
+  align-self: center;
+  display:inline-block;
+  border:1px solid #000;
+  padding:20px;
+  width: 750px;
+}
+.vacc{
+  margin-left: 35px;
+  margin-right: 35px;
+  font-size: 15px;
 }

@@ -11,8 +11,8 @@ export default function Component1() {
 
 const c1Style = {
   color: 'black',
-  fontSize: '50px'
-,  backgroundColor: '#f9f4fa',
+  fontSize: '50px',
+  backgroundColor: '#f9f4fa',
   padding: '1.3rem',
   textAlign: 'center',
   fontFamily: 'fantasy',
