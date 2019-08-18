@@ -142,7 +142,7 @@ div.slide-up {
   overflow:hidden;
 }
 div.slide-up div.inner {
-  animation: slide-up 3s;
+  animation: slide-up 2s;
   margin-top:0%;
 }
 
