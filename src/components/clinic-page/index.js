@@ -17,7 +17,9 @@ const ClinicInfo = () => {
                 <Card.Img src="./images/businesshrs.png" />
               </div>
             </Col>
-            <Col md={5}>
+            &nbsp;
+            &nbsp;
+            <Col md={6}>
               <Card className="infoCard">
                 <Card.Header style={{fontWeight: 'bold'}}>Samsara Chiropractic Wellness Center</Card.Header>
                 <Card.Body>7 E High St, Somerville, NJ 08876

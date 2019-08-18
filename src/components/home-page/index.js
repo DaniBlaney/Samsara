@@ -11,8 +11,12 @@ const HomePage = () => {
   return (
     <>
       <NavBarComponent />
-      <Component1 />
       <div className="gradient">
+        <Row>
+          <Col md={12}>
+            <Component1 />
+          </Col>
+        </Row>
         <Container fluid>
           <Row className="justify-content-md-center mainCont">
             <Col md={3}>
@@ -40,7 +44,7 @@ const HomePage = () => {
             </Col>
           </Row>
           &nbsp;
-          <hr/>
+          <hr />
           <Row></Row>
         </Container>
       </div>
