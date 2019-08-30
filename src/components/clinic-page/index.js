@@ -19,8 +19,8 @@ const ClinicInfo = () => {
           </Row>
           <Row>
             <Col />
-            <Col>
-              <Card.Img src="./images/faq2.png" style={{ width: '800px' }} />
+            <Col md={8}>
+              <Card.Img src="./images/faqs2.png" />
             </Col>
             <Col />
           </Row>
