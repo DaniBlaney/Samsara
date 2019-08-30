@@ -17,14 +17,18 @@ const HomePage = () => {
             <Component1 />
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Container fluid>
             <Card.Img className="" src="./images/samsarachiro.png" />
           </Container>
-        </Row>
+        </Row> */}
         <Row>
-          <Container fluid>
+          <Container className="lavender" fluid>
             <Card.Img className="" src="./images/the-lavender-flower.jpg" />
+            <div class="centered">
+              <h3>Jennifer E. Redmond, D.C.</h3> <hr/>
+              <h1 style={{fontFamily: 'fantasy', }}>SAMSARA CHIROPRACTIC WELLNESS CENTER</h1>
+            </div>
           </Container>
         </Row>
         <Container fluid>
