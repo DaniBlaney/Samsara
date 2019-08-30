@@ -24,7 +24,7 @@ const HomePage = () => {
         </Row> */}
         <Row>
           <Container className="lavender" fluid>
-            <Card.Img className="" src="./images/the-lavender-flower.jpg" />
+            <Card.Img style={{height:'600px'}} src="./images/the-lavender-flower.jpg" />
             <div className="centered">
               <h3>Jennifer E. Redmond, D.C.</h3> <hr />
               <h1 style={{ fontFamily: 'fantasy', }}>SAMSARA CHIROPRACTIC WELLNESS CENTER</h1>
