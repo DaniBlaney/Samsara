@@ -11,58 +11,23 @@ const JenniferRedmond = () => {
       <div>
         <Container fluid>
           <div className="jenRed">
-            <Row className="justify-content-md-center">
-              <Col md={3}>
-                <Card.Img className="imgStyle" src="./images/doctor.png" />
+            <Row className="justify-content-md-center"style={{background:'#a3cfd7'}}>
+              <Col md={4}>
+                <Card.Img style={{width:'450px', paddingTop:'50px'}} src="./images/faded.png" />
               </Col>
-              <Col md={3} style={{ padding: 5 }}>
-                <h4>Education</h4>
-                <p>Graduated from New York Chiropractic College in 2003. Other degrees:
-                  Excelsior College; Raritan Valley Community College. Memberships:
-                  Association for New Jersey Chiropractors (ANJC), International Chiropractic
-                  Association (ICA), ICA Pediatrics Council, Chiropractic Leadership Alliance
-                  (CLA) Honors: Phi Theta Kappa Member, Certificate of Excellence for Pre-Chiropractic
-                  Degree, RVCC Distinguished Alumni 2008</p>
+              <Col md={8}>
+                <Card.Img src="./images/aboutjen.png" />
               </Col>
-              <Col md={6}>
-                <Row>
-                  <Col style={{ padding: 5 }}>
-                    <h5 style={{textAlign: 'center'}}>Techniques:</h5>
-                    <ul className="techList" style={{listStyle: 'none'}}>
-                      <li>Diversified</li>
-                      <li>Flexion-Distraction</li>
-                      <li>Neuro Emotional Technique</li>
-                      <li>Active Release</li>
-                      <li>Appl. Kinesiology</li>
-                      <li>Activator Methods</li>
-                      <li>Various Soft Tissue(muscle)</li>
-                      <li>Life Coaching</li>
-                    </ul>
-                  </Col>
-                  <Col style={{ padding: 5 }}>
-                    <h5 style={{textAlign: 'center'}}>Specialties:</h5>
-                    <ul className="specList" style={{listStyle: 'none'}}>
-                      <li>Family Practice</li>
-                      <li>Shoe Orthotics</li>
-                      <li>Holistic Care</li>
-                      <li>Posture Training</li>
-                      <li>Thermography</li>
-                      <li>Exercise & Fitness</li>
-                      <li>Life and Health Coaching</li>
-                    </ul>
-                  </Col>
-                  <Col style={{ padding: 5 }}>
-                    <h5 style={{textAlign: 'center'}}>Therapies:</h5>
-                    <ul className="therList" style={{listStyle: 'none'}}>
-                      <li>Nurtritional</li>
-                      <li>Homeopathy</li>
-                      <li>Ear Candling</li>
-                      <li>Aromatherapy</li>
-                    </ul>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
+              </Row>
+              <Row>
+              <Card.Img src="./images/aboutme.png" />
+              </Row>
+              <Row>
+              <Card.Img src="./images/back.png" />
+              </Row>
+              <Row>
+                <Card.Img src="./images/profess.png" />
+              </Row>
           </div>
         </Container>
       </div>

@@ -17,14 +17,9 @@ const HomePage = () => {
             <Component1 />
           </Col>
         </Row>
-        {/* <Row>
-          <Container fluid>
-            <Card.Img className="" src="./images/samsarachiro.png" />
-          </Container>
-        </Row> */}
         <Row>
           <Container className="lavender" fluid>
-            <Card.Img style={{height:'600px'}} src="./images/the-lavender-flower.jpg" />
+            <Card.Img src="./images/the-lavender-flower2.jpg" />
             <div className="centered">
               <h3>Jennifer E. Redmond, D.C.</h3> <hr />
               <h1 style={{ fontFamily: 'fantasy', }}>SAMSARA CHIROPRACTIC WELLNESS CENTER</h1>
@@ -36,7 +31,7 @@ const HomePage = () => {
             <Col md={3}>
               <div className="slide-up">
                 <div className="inner">
-                  <Card.Img className="imgStyle" src="./images/redmond.png" />
+                <Card.Img className="imgStyle" src="./images/doctor.png" />
                 </div>
               </div>
             </Col>
@@ -55,28 +50,25 @@ const HomePage = () => {
             </Col>
           </Row>
           <Row>
+          <Card.Img src="./images/health.png"></Card.Img>
+          </Row>
+          <Row>
             <Card.Img src="./images/techniques.png"></Card.Img>
           </Row>
           <Row>
             <Card.Img src="./images/testimonials.png"></Card.Img>
           </Row>
           <Row>
-          <Card.Img src="./images/testimonial1.png"></Card.Img>
+            <Card.Img src="./images/testimonial1.png"></Card.Img>
           </Row>
           <Row>
-          <Card.Img src="./images/testimonial2.png"></Card.Img>
+            <Card.Img src="./images/testimonial2.png"></Card.Img>
           </Row>
           <Row>
-          <Card.Img src="./images/testimonial3.png"></Card.Img>
+            <Card.Img src="./images/testimonial3.png"></Card.Img>
           </Row>
-          <Row>
-            <Col md={5}>
-              <div className="centered2">
-                <h3>Our new office!</h3>
-                <p style={{fontSize:'20px'}}>7 E High Street, Somerville, NJ 08876</p>
-              </div>
-            </Col>
-            <Col md={7}>
+          <Row style={{background:'white'}}>
+            <Col md={12}>
               <a href="https://www.google.com/maps/dir//7+E+High+St,+Somerville,+NJ+08876/@40.5699591,-74.613052,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c39549552d991f:0xd3fa01cc1f69dcf8!2m2!1d-74.610858!2d40.569955" target="_blank"><Card.Img src="./images/map.png"></Card.Img></a>
             </Col>
           </Row>
