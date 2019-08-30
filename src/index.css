@@ -43,12 +43,12 @@ li{
 .navbar{
   width: 100% !important;
 }
-#custom-nav {
+/* #custom-nav {
   -webkit-box-shadow: 5px 5px 5px rgba(105, 103, 103, 0.527);
   -moz-box-shadow:    5px 5px 5px rgba(105, 103, 103, 0.527);
   box-shadow:         3px 3px 3px rgba(105, 103, 103, 0.527);
   z-index:999;
-}
+} */
 .footer{
   background-color: #dcbdf3;
 }

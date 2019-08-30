@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Row, Col, Card, Body, Title, Text, Nav, Navbar, Dropdown, ButtonGroup, NavItem, Link, Brand, Button, FormControl, Form, Image, Container } from 'react-bootstrap';
+import { Row, Col, Card, Body, Title, Text, Nav, Navbar, Dropdown, ButtonGroup, NavItem, Link, Brand, Button, FormControl, Form, Image, Container, Jumbotron } from 'react-bootstrap';
 import NavBarComponent from "../navbar";
 import FooterComponent from '../footer';
 import SidebarExample from '../sidebar';
@@ -17,12 +17,22 @@ const HomePage = () => {
             <Component1 />
           </Col>
         </Row>
+        <Row>
+          <Container fluid>
+            <Card.Img className="" src="./images/samsarachiro.png" />
+          </Container>
+        </Row>
+        <Row>
+          <Container fluid>
+            <Card.Img className="" src="./images/the-lavender-flower.jpg" />
+          </Container>
+        </Row>
         <Container fluid>
           <Row className="justify-content-md-center mainCont">
             <Col md={3}>
               <div class="slide-up">
                 <div class="inner">
-                <Card.Img className="imgStyle" src="./images/redmond.png" />
+                  <Card.Img className="imgStyle" src="./images/redmond.png" />
                 </div>
               </div>
             </Col>
