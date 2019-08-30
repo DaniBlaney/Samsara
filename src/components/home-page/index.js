@@ -19,12 +19,8 @@ const HomePage = () => {
         </Row>
         <Row>
           <Col>
-          <Container className="lavender" fluid>
-            <Card.Img src="./images/the-lavender-flower2.jpg" />
-            <div className="centered">
-              <h3>Jennifer E. Redmond, D.C.</h3> <hr />
-              <h1 style={{ fontFamily: 'fantasy', }}>SAMSARA CHIROPRACTIC WELLNESS CENTER</h1>
-            </div>
+          <Container fluid>
+            <Card.Img src="./images/the-lavender-flower3.png" />
           </Container>
           </Col>
         </Row>
