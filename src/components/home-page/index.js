@@ -77,7 +77,7 @@ const HomePage = () => {
             <Card.Img src="./images/testimonial3.png"></Card.Img>
             </Col>
           </Row>
-          <Row style={{background:'white'}}>
+          <Row>
             <Col md={12}>
               <a href="https://www.google.com/maps/dir//7+E+High+St,+Somerville,+NJ+08876/@40.5699591,-74.613052,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c39549552d991f:0xd3fa01cc1f69dcf8!2m2!1d-74.610858!2d40.569955" target="_blank"><Card.Img src="./images/map.png"></Card.Img></a>
             </Col>
