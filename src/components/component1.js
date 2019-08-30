@@ -5,7 +5,7 @@ export default function Component1() {
   const props = useSpring({ config:{duration: 1000},
     to:[{opacity: 1, color: 'black'}, {color: 'gray'}],
     from: {opacity: 0}})
-  return <animated.div style={props}><h1 style={c1Style}><img style={{width:35}} src="./images/bluebutt.gif" />Welcome</h1></animated.div>
+  return <animated.div style={props}><h1 style={c1Style}><img style={{width:35}} src="./images/bluebutt.gif" />Welcome to Our Practice</h1></animated.div>
 
 }
 
