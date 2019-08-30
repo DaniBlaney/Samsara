@@ -21,6 +21,7 @@ const NavBarComponent = () => {
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/about">About Us</Nav.Link>
           <Nav.Link href="/clinicinfo">Clinic Info</Nav.Link>
+          <Nav.Link href="http://welcometowellness.blogspot.com/" target="_blank">Blog</Nav.Link>
         </Nav>
         </Navbar.Collapse>
       </Navbar>

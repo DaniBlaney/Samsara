@@ -25,17 +25,17 @@ const HomePage = () => {
         <Row>
           <Container className="lavender" fluid>
             <Card.Img className="" src="./images/the-lavender-flower.jpg" />
-            <div class="centered">
-              <h3>Jennifer E. Redmond, D.C.</h3> <hr/>
-              <h1 style={{fontFamily: 'fantasy', }}>SAMSARA CHIROPRACTIC WELLNESS CENTER</h1>
+            <div className="centered">
+              <h3>Jennifer E. Redmond, D.C.</h3> <hr />
+              <h1 style={{ fontFamily: 'fantasy', }}>SAMSARA CHIROPRACTIC WELLNESS CENTER</h1>
             </div>
           </Container>
         </Row>
         <Container fluid>
           <Row className="justify-content-md-center mainCont">
             <Col md={3}>
-              <div class="slide-up">
-                <div class="inner">
+              <div className="slide-up">
+                <div className="inner">
                   <Card.Img className="imgStyle" src="./images/redmond.png" />
                 </div>
               </div>
@@ -54,7 +54,32 @@ const HomePage = () => {
               <SidebarExample />
             </Col>
           </Row>
-          <hr />
+          <Row>
+            <Card.Img src="./images/techniques.png"></Card.Img>
+          </Row>
+          <Row>
+            <Card.Img src="./images/testimonials.png"></Card.Img>
+          </Row>
+          <Row>
+          <Card.Img src="./images/testimonial1.png"></Card.Img>
+          </Row>
+          <Row>
+          <Card.Img src="./images/testimonial2.png"></Card.Img>
+          </Row>
+          <Row>
+          <Card.Img src="./images/testimonial3.png"></Card.Img>
+          </Row>
+          <Row>
+            <Col md={5}>
+              <div className="centered2">
+                <h3>Our new office!</h3>
+                <p style={{fontSize:'20px'}}>7 E High Street, Somerville, NJ 08876</p>
+              </div>
+            </Col>
+            <Col md={7}>
+              <a href="https://www.google.com/maps/dir//7+E+High+St,+Somerville,+NJ+08876/@40.5699591,-74.613052,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c39549552d991f:0xd3fa01cc1f69dcf8!2m2!1d-74.610858!2d40.569955" target="_blank"><Card.Img src="./images/map.png"></Card.Img></a>
+            </Col>
+          </Row>
           <Row>
             <Col>
               <p>{"\u2728"} Dr. Redmond is working hard to spread the health and you can help! If your business or group is looking for a speaker, Dr. Redmond is

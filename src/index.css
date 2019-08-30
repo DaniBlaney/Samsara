@@ -155,6 +155,12 @@ li{
   left: 70%;
   transform: translate(-50%, -50%);
 }
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
 
 div.slide-up {
   height:400px;
