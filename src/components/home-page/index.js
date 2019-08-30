@@ -18,6 +18,7 @@ const HomePage = () => {
           </Col>
         </Row>
         <Row>
+          <Col>
           <Container className="lavender" fluid>
             <Card.Img src="./images/the-lavender-flower2.jpg" />
             <div className="centered">
@@ -25,6 +26,7 @@ const HomePage = () => {
               <h1 style={{ fontFamily: 'fantasy', }}>SAMSARA CHIROPRACTIC WELLNESS CENTER</h1>
             </div>
           </Container>
+          </Col>
         </Row>
         <Container fluid>
           <Row className="justify-content-md-center mainCont">
@@ -50,22 +52,34 @@ const HomePage = () => {
             </Col>
           </Row>
           <Row>
+            <Col>
           <Card.Img src="./images/health.png"></Card.Img>
+          </Col>
           </Row>
           <Row>
+            <Col>
             <Card.Img src="./images/techniques.png"></Card.Img>
+            </Col>
           </Row>
           <Row>
+            <Col>
             <Card.Img src="./images/testimonials.png"></Card.Img>
+            </Col>
           </Row>
           <Row>
+            <Col>
             <Card.Img src="./images/testimonial1.png"></Card.Img>
+            </Col>
           </Row>
           <Row>
+            <Col>
             <Card.Img src="./images/testimonial2.png"></Card.Img>
+            </Col>
           </Row>
           <Row>
+            <Col>
             <Card.Img src="./images/testimonial3.png"></Card.Img>
+            </Col>
           </Row>
           <Row style={{background:'white'}}>
             <Col md={12}>
